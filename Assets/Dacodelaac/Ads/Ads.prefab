@@ -1,0 +1,419 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4424090700506551867
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8933266690578220295}
+  - component: {fileID: 7994513940199884665}
+  - component: {fileID: 783905465756340069}
+  - component: {fileID: 3015374498425928365}
+  - component: {fileID: 6841516562746150988}
+  m_Layer: 0
+  m_Name: EditorAds
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8933266690578220295
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4424090700506551867}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8975525046838093765}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7994513940199884665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4424090700506551867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0852292520d94d50b2ca3cbc69f3fafa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: editor_ads
+  pools: {fileID: 11400000, guid: 8a6417b9114868544b62f7c310955330, type: 2}
+  ticker: {fileID: 11400000, guid: 9efb532694a73a54390886071b7f958e, type: 2}
+  earlyTick: 0
+  tick: 0
+  lateTick: 0
+  fixedTick: 0
+  mediation: {fileID: 11400000, guid: 2860bda918a34317ac3f99ba3f9866fd, type: 2}
+--- !u!114 &783905465756340069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4424090700506551867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a67503bcba5e497b96bf11e301731f8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: editor_ads
+  pools: {fileID: 11400000, guid: 8a6417b9114868544b62f7c310955330, type: 2}
+  ticker: {fileID: 11400000, guid: 9efb532694a73a54390886071b7f958e, type: 2}
+  earlyTick: 0
+  tick: 0
+  lateTick: 0
+  fixedTick: 0
+  event: {fileID: 11400000, guid: 9a8d9ee999d14546a79672130c287c90, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7994513940199884665}
+        m_TargetAssemblyTypeName: Dacodelaac.Ads.EditorAds, Assembly-CSharp
+        m_MethodName: OnCloseReward
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &3015374498425928365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4424090700506551867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a67503bcba5e497b96bf11e301731f8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: editor_ads
+  pools: {fileID: 11400000, guid: 8a6417b9114868544b62f7c310955330, type: 2}
+  ticker: {fileID: 11400000, guid: 9efb532694a73a54390886071b7f958e, type: 2}
+  earlyTick: 0
+  tick: 0
+  lateTick: 0
+  fixedTick: 0
+  event: {fileID: 11400000, guid: e6489d4770ec4ace90a78ba71d48c3b9, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7994513940199884665}
+        m_TargetAssemblyTypeName: Dacodelaac.Ads.EditorAds, Assembly-CSharp
+        m_MethodName: OnCloseInterstitial
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &6841516562746150988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4424090700506551867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a67503bcba5e497b96bf11e301731f8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: editor_ads
+  pools: {fileID: 11400000, guid: 8a6417b9114868544b62f7c310955330, type: 2}
+  ticker: {fileID: 11400000, guid: 9efb532694a73a54390886071b7f958e, type: 2}
+  earlyTick: 0
+  tick: 0
+  lateTick: 0
+  fixedTick: 0
+  event: {fileID: 11400000, guid: 878a699c877842deb25b10aa0a233470, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7994513940199884665}
+        m_TargetAssemblyTypeName: Dacodelaac.Ads.EditorAds, Assembly-CSharp
+        m_MethodName: OnCompleteReward
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &8975525046838093786
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8975525046838093765}
+  - component: {fileID: 8975525046838093764}
+  - component: {fileID: 5628713795339608774}
+  - component: {fileID: 4797609109580387546}
+  - component: {fileID: 6640541425280852142}
+  - component: {fileID: 5175230084836154408}
+  - component: {fileID: 7865228885921196187}
+  m_Layer: 0
+  m_Name: Ads
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8975525046838093765
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8975525046838093786}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8933266690578220295}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8975525046838093764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8975525046838093786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5567d381f1e4379bd635ad08e9f23da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: ads
+  pools: {fileID: 11400000, guid: 8a6417b9114868544b62f7c310955330, type: 2}
+  ticker: {fileID: 11400000, guid: 9efb532694a73a54390886071b7f958e, type: 2}
+  earlyTick: 0
+  tick: 1
+  lateTick: 0
+  fixedTick: 0
+  deviceMediation: {fileID: 0}
+  editorMediation: {fileID: 11400000, guid: 2860bda918a34317ac3f99ba3f9866fd, type: 2}
+  adsInitializedEvent: {fileID: 11400000, guid: c00ddd6eaa5c47b090573fe7cba4bfac, type: 2}
+  rewarded: 1
+  maxRewardedDelayTime: 30
+  rewardedShowedEvent: {fileID: 11400000, guid: 6991a882f6f9464da8e34b02019a52b4, type: 2}
+  rewardedClosedEvent: {fileID: 11400000, guid: 0c9de480b28b4097b075f82cde9d90ae, type: 2}
+  rewardedChangedEvent: {fileID: 11400000, guid: 8830e06f8958416a8f3b3a79eb72e30f, type: 2}
+  rewardedRequestEvent: {fileID: 11400000, guid: e60aed59e2ff2b744b4a28a2218e8b83, type: 2}
+  interstitial: 1
+  maxInterstitialDelayTime: 30
+  showInterval: {fileID: 11400000, guid: 8e7887fba3ba19b48b76031d417c875c, type: 2}
+  showIntervalLevel: {fileID: 11400000, guid: 4f95991bfc017e941833ca3c1a772f5e, type: 2}
+  minLevel: {fileID: 11400000, guid: 0c4eda45efbc0424cb367ed80674099c, type: 2}
+  levelStartShowInter: {fileID: 11400000, guid: 616a09dc0781aff41a6eef736ef9abe5, type: 2}
+  interstitialShowedEvent: {fileID: 11400000, guid: e3e6478db964414b94fcd7ba673cef9a, type: 2}
+  interstitialClosedEvent: {fileID: 11400000, guid: 7238a515d72946f9a4d3008fe9d54896, type: 2}
+  interstitialRequestEvent: {fileID: 11400000, guid: a7e49cd387d24184a83e983c0ea6637f, type: 2}
+  currentLevel: {fileID: 11400000, guid: 6f04ada7d75f5864f8021f8b7294b59b, type: 2}
+  banner: 1
+  maxBannerDelayTime: 30
+  bannerPos: 1
+  bannerShowedEvent: {fileID: 11400000, guid: 14a6d4702b5346ffb8ce8249b2bc07ff, type: 2}
+  bannerHidEvent: {fileID: 11400000, guid: 150f6f2bdde64573b17fe84307042c8b, type: 2}
+  noAds: {fileID: 11400000, guid: c85cc969ed4e62a42bbda6b663136382, type: 2}
+--- !u!114 &5628713795339608774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8975525046838093786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a67503bcba5e497b96bf11e301731f8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: ads
+  pools: {fileID: 11400000, guid: 8a6417b9114868544b62f7c310955330, type: 2}
+  ticker: {fileID: 11400000, guid: 9efb532694a73a54390886071b7f958e, type: 2}
+  earlyTick: 0
+  tick: 0
+  lateTick: 0
+  fixedTick: 0
+  event: {fileID: 11400000, guid: dcab5696dbdb4a8381d23ff24557ab78, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8975525046838093764}
+        m_TargetAssemblyTypeName: Dacodelaac.Ads.Ads, Assembly-CSharp
+        m_MethodName: ShowInterstitial
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &4797609109580387546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8975525046838093786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba545f26c8414582b8fb679d64668854, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: ads
+  pools: {fileID: 11400000, guid: 8a6417b9114868544b62f7c310955330, type: 2}
+  ticker: {fileID: 11400000, guid: 9efb532694a73a54390886071b7f958e, type: 2}
+  earlyTick: 0
+  tick: 0
+  lateTick: 0
+  fixedTick: 0
+  event: {fileID: 11400000, guid: b9b88e414f584939843bee59547c790e, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8975525046838093764}
+        m_TargetAssemblyTypeName: Dacodelaac.Ads.Ads, Assembly-CSharp
+        m_MethodName: ShowRewarded
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &6640541425280852142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8975525046838093786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a67503bcba5e497b96bf11e301731f8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: ads
+  pools: {fileID: 11400000, guid: 8a6417b9114868544b62f7c310955330, type: 2}
+  ticker: {fileID: 11400000, guid: 9efb532694a73a54390886071b7f958e, type: 2}
+  earlyTick: 0
+  tick: 0
+  lateTick: 0
+  fixedTick: 0
+  event: {fileID: 11400000, guid: 4a0c0007342a408da67b26473165db23, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8975525046838093764}
+        m_TargetAssemblyTypeName: Dacodelaac.Ads.Ads, Assembly-CSharp
+        m_MethodName: ShowBanner
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &5175230084836154408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8975525046838093786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a67503bcba5e497b96bf11e301731f8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: ads
+  pools: {fileID: 11400000, guid: 8a6417b9114868544b62f7c310955330, type: 2}
+  ticker: {fileID: 11400000, guid: 9efb532694a73a54390886071b7f958e, type: 2}
+  earlyTick: 0
+  tick: 0
+  lateTick: 0
+  fixedTick: 0
+  event: {fileID: 11400000, guid: 9dab4670233f4b52968f0ad561b20bf1, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8975525046838093764}
+        m_TargetAssemblyTypeName: Dacodelaac.Ads.Ads, Assembly-CSharp
+        m_MethodName: HideBanner
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &7865228885921196187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8975525046838093786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a67503bcba5e497b96bf11e301731f8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: ads
+  pools: {fileID: 11400000, guid: 8a6417b9114868544b62f7c310955330, type: 2}
+  ticker: {fileID: 11400000, guid: 9efb532694a73a54390886071b7f958e, type: 2}
+  earlyTick: 0
+  tick: 0
+  lateTick: 0
+  fixedTick: 0
+  event: {fileID: 11400000, guid: c5b0d94b975cc8d48bb270945eca04a7, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8975525046838093764}
+        m_TargetAssemblyTypeName: Dacodelaac.Ads.Ads, Assembly-CSharp
+        m_MethodName: OnLevelEnded
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

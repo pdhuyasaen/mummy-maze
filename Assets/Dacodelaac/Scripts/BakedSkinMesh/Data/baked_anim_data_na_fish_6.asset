@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8777d246525609f499e511a33bbe7fbe, type: 3}
+  m_Name: baked_anim_data_na_fish_6
+  m_EditorClassIdentifier: 
+  mesh: {fileID: 4300000, guid: 875c26e7ba92ae44ea06998132f44edd, type: 2}
+  texture: {fileID: 2800000, guid: acda767759c42204c9237e1372d806ef, type: 2}
+  magnitude: 5.7192225
+  clipDatas:
+  - name: Armature|swing
+    duration: 3
+    frameStart: 382
+    frameEnd: 562
+    speed: 1
+    loop: 1
+    isDefault: 1
+  - name: Armature|shoot
+    duration: 0.8333334
+    frameStart: 563
+    frameEnd: 613
+    speed: 1
+    loop: 0
+    isDefault: 0
